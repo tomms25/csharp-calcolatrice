@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-calcolatrice", "csharp-calcolatrice\csharp-calcolatrice.csproj", "{1A71941B-18AF-485A-8FD1-B62BB3A16CCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A71941B-18AF-485A-8FD1-B62BB3A16CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A71941B-18AF-485A-8FD1-B62BB3A16CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A71941B-18AF-485A-8FD1-B62BB3A16CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A71941B-18AF-485A-8FD1-B62BB3A16CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5168453D-76B6-4EAE-8913-B50AA88CFF51}
+	EndGlobalSection
+EndGlobal
