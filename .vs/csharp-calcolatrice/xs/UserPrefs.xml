@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{1A71941B-18AF-485A-8FD1-B62BB3A16CCD}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="csharp-calcolatrice/CalcoliHelper.cs">
+    <Files>
+      <File FileName="csharp-calcolatrice/Program.cs" Line="140" Column="32" />
+      <File FileName="csharp-calcolatrice/CalcoliHelper.cs" Line="81" Column="12" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="csharp-calcolatrice" expanded="True">
+            <Node name="csharp-calcolatrice" expanded="True">
+              <Node name="CalcoliHelper.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.csharp-calcolatrice PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

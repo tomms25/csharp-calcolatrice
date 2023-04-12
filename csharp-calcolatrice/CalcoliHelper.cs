@@ -21,11 +21,92 @@
 
 namespace csharp_calcolatrice
 {
-	public class CalcoliHelper
-	{
-		public CalcoliHelper()
-		{
-		}
-	}
+    public static class CalcoliHelper
+    {
+        public static int SommaNumeri(int addendo1, int addendo2)
+        {
+            return addendo1 + addendo2;
+        }
+        public static double SommaNumeri(double addendo1, double addendo2)
+        {
+            return addendo1 + addendo2;
+        }
+        public static int DifferenzaNumeri(int num1, int num2)
+        {
+            return num1 - num2;
+        }
+        public static double DifferenzaNumeri(double num1, double num2)
+        {
+            return num1 - num2;
+        }
+        public static int ProdottoNumeri(int num1, int num2)
+        {
+            return num1 * num2;
+        }
+        public static double ProdottoNumeri(double num1, double num2)
+        {
+            return num1 * num2;
+        }
+        public static int ValoreAssoluto(int num)
+        {
+            if (num >= 0) return num;
+            else return num * (-1);
+        }
+        public static double ValoreAssoluto(double num)
+        {
+            if (num >= 0) return num;
+            else return num * (-1);
+        }
+        public static int MinNumeri(int num1, int num2)
+        {
+            if (num1 < num2) return num1;
+            else return num2;
+        }
+        public static double MinNumeri(double num1, double num2)
+        {
+            if (num1 < num2) return num1;
+            else return num2;
+        }
+        public static int MaxNumeri(int num1, int num2)
+        {
+            if (num1 > num2) return num1;
+            else return num2;
+        }
+        public static double MaxNumeri(double num1, double num2)
+        {
+            if (num1 > num2) return num1;
+            else return num2;
+        }
+
+        //Elevamento a potenza
+        public static double Potenza(double numero1, int numero2)
+        {
+            if (numero2 == 0 && numero1 == 0)
+            {
+                return 1;
+            }
+            else if (numero1 == 0)
+            {
+                return 0;
+            }
+            else if (numero2 == 0)
+            {
+                return 1;
+            }
+            else if (numero2 < 0)
+            {
+                return 1 / Potenza(numero1, -numero2);
+            }
+            else
+            {
+                double result = 1;
+                for (int i = 0; i < numero2; i++)
+                {
+                    result *= numero1;
+                }
+                return result;
+            }
+        }
+    }
 }
 
